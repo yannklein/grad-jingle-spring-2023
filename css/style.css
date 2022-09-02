@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@font-face {
+  font-family: 'SW';
+  src: url('Starjedi.ttf');
+}
+
+body {
+  background-color: black;
+  color: #FFD64E;
+}
+
+h1 {
+  font-family: 'SW';
+  color: #000000;
+  text-shadow:
+    1px -1px 0px #FFD64E, 
+    1px 1px 0px #FFD64E, 
+    -1px -1px 0px #FFD64E, 
+    -1px 1px 0px #FFD64E;
+  margin: 32px;
+  text-align: center;
+  font-size: 600px;
+}
+
+.opacity-transition {
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#goodluck {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#goodluck p {
+  font-family: 'SW';
+  font-size: 80px;
+  margin-right: 32px;
+}
+
+#goodluck img {
+  height: 120px;
+  filter: sepia(1);
+}
+
+#long-time-ago {
+  color: #4AD5EE;
+  font-size: 56px;
+}
+
+#play {
+  color: #FFD64E;
+  font-size: 180px;
+  z-index: 1;
+}
+
+#title {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 64px;
+  margin: 64px 0;
+}
+
+#text-roll {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  transform: translate(-50%, -50%) perspective(130px) rotateX(20deg) translateY(90%);
+}
+
+#text-roll p {
+  text-align: justify;
+}
+
+.text-center-fixed {
+  position: fixed;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+}
+
